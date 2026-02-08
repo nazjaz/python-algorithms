@@ -1,0 +1,14 @@
+# Burrows-Wheeler Transform with Move-to-Front Encoding Configuration
+
+# BWT+MTF algorithm parameters
+bwt_mtf:
+  # Alphabet size for MTF encoding (256 for bytes)
+  alphabet_size: 256
+
+# Logging configuration
+logging:
+  # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  
+  # Log file path
+  file: "logs/app.log"
