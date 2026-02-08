@@ -1,0 +1,14 @@
+# Bidirectional Dijkstra Algorithm Configuration
+
+# Bidirectional Dijkstra algorithm parameters
+bidirectional_dijkstra:
+  # Maximum number of iterations
+  max_iterations: 10000
+
+# Logging configuration
+logging:
+  # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  
+  # Log file path
+  file: "logs/app.log"
