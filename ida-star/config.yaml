@@ -1,0 +1,27 @@
+# Iterative Deepening A* (IDA*) Pathfinding Algorithm Configuration
+
+# IDA* algorithm parameters
+ida_star:
+  # Heuristic function: manhattan, euclidean, chebyshev, diagonal, octile, zero
+  heuristic: "manhattan"
+  
+  # Allow diagonal movement
+  allow_diagonal: true
+  
+  # Maximum number of iterations (f-limit increases)
+  max_iterations: 1000
+  
+  # Movement costs
+  movement_cost:
+    # Cost for straight movement (up, down, left, right)
+    straight: 1.0
+    # Cost for diagonal movement
+    diagonal: 1.4142135623730951  # sqrt(2)
+
+# Logging configuration
+logging:
+  # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  
+  # Log file path
+  file: "logs/app.log"
