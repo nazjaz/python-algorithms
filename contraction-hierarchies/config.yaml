@@ -1,0 +1,20 @@
+# Contraction Hierarchies Configuration
+
+# Contraction hierarchies algorithm parameters
+contraction_hierarchies:
+  # Weight for edge difference in importance calculation
+  edge_difference_weight: 1.0
+  
+  # Weight for deleted neighbors in importance calculation
+  deleted_neighbors_weight: 1.0
+  
+  # Hop limit for shortcut search (not used in simplified version)
+  hop_limit: 2
+
+# Logging configuration
+logging:
+  # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  
+  # Log file path
+  file: "logs/app.log"
