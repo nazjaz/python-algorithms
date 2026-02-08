@@ -1,0 +1,25 @@
+# LZ77 and LZ78 Compression Algorithms Configuration
+
+# LZ77 algorithm parameters
+lz77:
+  # Size of search buffer (sliding window)
+  window_size: 4096
+  
+  # Size of look-ahead buffer
+  lookahead_size: 18
+  
+  # Minimum match length to encode
+  min_match_length: 3
+
+# LZ78 algorithm parameters
+lz78:
+  # Maximum dictionary size (0 = unlimited)
+  max_dict_size: 4096
+
+# Logging configuration
+logging:
+  # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  
+  # Log file path
+  file: "logs/app.log"
