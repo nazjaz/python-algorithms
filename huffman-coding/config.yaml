@@ -1,0 +1,13 @@
+# Huffman Coding Configuration
+
+# Algorithm parameters (currently using defaults)
+# Standard and canonical Huffman use frequency-based tree building
+# Adaptive Huffman uses FGK algorithm
+
+# Logging configuration
+logging:
+  # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  
+  # Log file path
+  file: "logs/app.log"
