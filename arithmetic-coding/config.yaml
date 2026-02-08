@@ -1,0 +1,15 @@
+# Arithmetic Coding Configuration
+
+# Arithmetic coding algorithm parameters
+arithmetic_coding:
+  # Precision bits (32 or 64)
+  # Higher precision = better compression but more computation
+  precision_bits: 32
+
+# Logging configuration
+logging:
+  # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  
+  # Log file path
+  file: "logs/app.log"
