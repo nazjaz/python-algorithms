@@ -1,0 +1,63 @@
+# Genetic Algorithm Configuration
+
+# Genetic algorithm parameters
+genetic_algorithm:
+  # Population size
+  population_size: 50
+  
+  # Maximum number of generations
+  max_generations: 100
+  
+  # Crossover rate (probability of crossover)
+  crossover_rate: 0.8
+  
+  # Mutation rate (probability of mutation per gene)
+  mutation_rate: 0.1
+  
+  # Number of elite individuals to preserve
+  elite_size: 1
+  
+  # Selection operator: tournament, roulette, rank
+  selection_type: "tournament"
+  
+  # Selection operator parameters
+  selection_params:
+    # Tournament size (for tournament selection)
+    tournament_size: 3
+    # Selection pressure (for rank-based selection, 1.0-2.0)
+    selection_pressure: 2.0
+  
+  # Crossover operator: single_point, multi_point, uniform, arithmetic
+  crossover_type: "single_point"
+  
+  # Crossover operator parameters
+  crossover_params:
+    # Number of crossover points (for multi-point crossover)
+    num_points: 2
+    # Mixing ratio (for uniform crossover, 0.0-1.0)
+    mixing_ratio: 0.5
+    # Alpha parameter (for arithmetic crossover, 0.0-1.0)
+    alpha: 0.5
+  
+  # Mutation operator: gaussian, uniform, swap, polynomial
+  mutation_type: "gaussian"
+  
+  # Mutation operator parameters
+  mutation_params:
+    # Mutation strength (for Gaussian mutation)
+    mutation_strength: 0.1
+    # Mutation range (for uniform mutation)
+    mutation_range: 1.0
+    # Eta parameter (for polynomial mutation)
+    eta: 20.0
+  
+  # Random seed for reproducibility (None for random)
+  random_seed: 42
+
+# Logging configuration
+logging:
+  # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  
+  # Log file path
+  file: "logs/app.log"
