@@ -1,0 +1,32 @@
+# Simulated Annealing Configuration
+
+# Simulated annealing algorithm parameters
+simulated_annealing:
+  # Initial temperature (higher = more exploration)
+  initial_temperature: 100.0
+  
+  # Final temperature (stopping criterion)
+  final_temperature: 0.01
+  
+  # Maximum number of iterations
+  max_iterations: 1000
+  
+  # Temperature schedule type: exponential, linear, logarithmic, geometric
+  schedule_type: "exponential"
+  
+  # Acceptance criterion: metropolis, threshold
+  acceptance_criterion: "metropolis"
+  
+  # Threshold value (only used for threshold acceptance criterion)
+  threshold: 0.5
+  
+  # Random seed for reproducibility (None for random)
+  random_seed: 42
+
+# Logging configuration
+logging:
+  # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  
+  # Log file path
+  file: "logs/app.log"
