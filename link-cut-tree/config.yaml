@@ -1,0 +1,9 @@
+# Link-Cut Tree Configuration
+
+# Logging configuration
+logging:
+  # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  
+  # Log file path
+  file: "logs/link_cut_tree.log"

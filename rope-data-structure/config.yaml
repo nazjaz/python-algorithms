@@ -1,0 +1,9 @@
+# Rope Data Structure Configuration
+
+# Logging configuration
+logging:
+  # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  
+  # Log file path
+  file: "logs/rope_data_structure.log"

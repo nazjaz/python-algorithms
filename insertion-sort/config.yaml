@@ -1,0 +1,20 @@
+# Insertion Sort Configuration
+
+# Visualization settings
+visualization:
+  # Enable visualization by default
+  enabled: false
+  
+  # Animation speed (milliseconds per frame)
+  animation_speed: 500
+  
+  # Output format: gif, mp4, or show
+  output_format: "gif"
+
+# Logging configuration
+logging:
+  # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  
+  # Log file path
+  file: "logs/app.log"

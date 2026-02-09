@@ -1,0 +1,9 @@
+# Van Emde Boas Tree Configuration
+
+# Logging configuration
+logging:
+  # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  
+  # Log file path
+  file: "logs/van_emde_boas_tree.log"

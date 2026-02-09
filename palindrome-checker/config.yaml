@@ -1,0 +1,20 @@
+# Palindrome Checker Configuration
+
+# String processing options
+options:
+  # Case sensitivity: true = case-sensitive, false = case-insensitive
+  case_sensitive: false
+  
+  # Ignore spaces when checking
+  ignore_spaces: false
+  
+  # Ignore punctuation when checking
+  ignore_punctuation: false
+
+# Logging configuration
+logging:
+  # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  
+  # Log file path
+  file: "logs/app.log"
